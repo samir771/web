@@ -82,9 +82,9 @@ span{
     line-height: 1.2;
 }
 .home-content p{
-    font-size: 16px;
+    font-size: 20px;
     margin: 25px 0 30px;
-    max-width: 700px;
+    max-width: 1500px;
 }
 .btn-box{
     width: 345px;
@@ -97,7 +97,7 @@ span{
     color: white;
     border: 2px solid transparent;
     border-radius: 8px;
-    font-size: 16px;
+    font-size: 17px;
     letter-spacing: 1px;
     font-weight: 600;
     cursor: pointer;
@@ -114,7 +114,7 @@ span{
     color: white;
     border: 2px solid black;
     border-radius: 8px;
-    font-size: 16px;
+    font-size: 17px;
     letter-spacing: 1px;
     font-weight: 600;
     cursor: pointer;
@@ -124,6 +124,23 @@ span{
     background-color: white;
     color: orangered;
 }
+.btn-3{
+    padding: 15px 28px;
+    background-color: rgb(211, 198, 233);
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.btn-2:hover{
+    background-color: white;
+    color: rgb(194, 188, 221);
+}
+
 .img-box{
     position: absolute;
     top: 160px;
@@ -177,7 +194,7 @@ span{
     text-align: center;
     margin-top: 3em;
     margin-bottom: 1em;
-    font-size: 36px;
+    font-size: 40px;
 }
 .contact-form form{
     max-width: 50em;
@@ -194,19 +211,20 @@ span{
 .contact-form form textarea{
     width: 100%;
     padding: 1em;
-    font-size: 16px;
+    font-size: 15px;
     color: black;
     background: rgba(241,241,241);
     border-radius: 0.8rem;
     margin: 1rem 0;
     resize: none;
 }
+
 .footer{
     position: relative;
     bottom: 0;
     width: 100%;
     padding: 40px 0;
-    background-color: black;
+    background-color:black;
 }
 .footer .social{
     text-align: center;
@@ -237,7 +255,7 @@ span{
     margin-top: 0;
     margin-bottom: 0;
     padding: 0;
-    font-size: 16px;
+    font-size: 19px;
     line-height: 1.6;
     text-align: center;
 }
@@ -257,6 +275,9 @@ span{
 .footer .copyright{
     margin-top: 15px;
     text-align: center;
-    font-size: 12px;
+    font-size: 15px;
     color: white;
+}
+html{
+    scroll-behavior: smooth;
 }
