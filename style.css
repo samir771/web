@@ -150,7 +150,7 @@ span{
     align-items: center;
     padding: 12% 8%;
     gap: 10em;
-    background: black;
+    background:black;
 }
 .about-img img{
     position: relative;
@@ -170,7 +170,7 @@ span{
 }
 .about-content p{
     color: white;
-    font-size: 16px;
+    font-size: 13px;
     margin: 2em 0 3em;
 }
 .contact-form h2{
